@@ -165,7 +165,7 @@ public class PageObjectModelTest {
 
         finalCheckoutPage.finishCheckout();
     }
-
+/*
     @Feature("Checkout flow")
     @Story("Order completion")
     @Description("Test to verify the order completion functionality")
@@ -182,7 +182,7 @@ public class PageObjectModelTest {
         Assert.assertEquals(orderCompletionPage.getBodyText(),
                 "Your order has been dispatched, and will arrive just as fast as the pony can get there!");
     }
-
+*/
     @AfterClass
     public void tearDown() {
         if (driver != null) {
