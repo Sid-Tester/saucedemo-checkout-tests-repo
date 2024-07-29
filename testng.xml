@@ -11,7 +11,7 @@
                     <include name="testCart"/>
                     <include name="testCheckout"/>
                     <include name="testFinalCheckout"/>
- <!--                   <include name="testOrderCompletion"/>   -->
+                    <include name="testOrderCompletion"/>
                 </methods>
             </class>
         </classes>
